@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main {
+    margin: 40px 30px;
+}
+main > h3 {
+    font-size: 30px;
+    color: red;
+    
+}
+label, input {
+    font-size: 20px;
+    margin: 10px 0;
+}
+form > fieldset {
+    margin: 20px;
+    padding: 0px 20px;
+}
+form > fieldset > legend {
+    font-size: 20px;
+    margin:10px 30px;
+}
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+table{
+    border-collapse: collapse;
+    margin: 15px 0px;
+}
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+    border: 1px solid black;
+}

@@ -1,0 +1,44 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header > nav {
+    background-color: lightgreen;
+}
+header > nav > ul {
+    display: flex;
+    text-align: center;
+    
+}
+header > nav > ul > li {
+    list-style: none;
+    margin: 0px 30px;
+    
+    
+}
+header > nav > ul > li > a{
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*=========main section css start==========*/
+main > article > figure {
+    margin: 30px 0px;
+    text-align: center;
+}
+main > article > figure > figcaption {
+    font-size: 30px;
+}
+main > article > header > h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+/*=========main section css end==========*/
+/*==========footer part css start===========*/
+footer{
+    margin: 20px 0;
+    text-align: center;
+}
+/*==========footer part css end===========*/
